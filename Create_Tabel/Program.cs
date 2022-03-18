@@ -11,6 +11,7 @@ namespace Create
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
             new Program().Create_table();
@@ -27,6 +28,7 @@ namespace Create
                 cm.ExecuteNonQuery();
 
                 Console.WriteLine("Create table berhasil");
+                Console.WriteLine("Coba push");
                 Console.ReadKey();
             }
 
